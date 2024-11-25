@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // Asegúrate de importar el CSS de AOS
 
 const Hero = () => {
-  // Inicializar AOS cuando el componente se monte
+  // Inicializar AOS cuando el componente se monte 
   useEffect(() => {
     AOS.init({
       duration: 1000, // Duración de la animación
@@ -59,7 +59,7 @@ const Hero = () => {
           data-aos="fade-up" // AOS animation for fade-up
           data-aos-delay="200" // Delay to appear after the title
         >
-          Desarrollador Fullstack, graduado de la Universidad Tecnológica Nacional de Tucumán.
+          Desarrollador Fullstack, Tecnico Universitario en Programacion.
         </p>
         <a
           href="#projects"

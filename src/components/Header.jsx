@@ -19,11 +19,11 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#hero" className="text-gray-700 hover:text-blue-500">Home</a>
-          <a href="#about" className="text-gray-700 hover:text-blue-500">About</a>
+          <a href="#hero" className="text-gray-700 hover:text-blue-500">Inicio</a>
+          <a href="#about" className="text-gray-700 hover:text-blue-500">Sobre mi</a>
           <a href="#skills" className="text-gray-700 hover:text-blue-500">Skills</a>
-          <a href="#projects" className="text-gray-700 hover:text-blue-500">Projects</a>
-          <a href="#contact" className="text-gray-700 hover:text-blue-500">Contact</a>
+          <a href="#projects" className="text-gray-700 hover:text-blue-500">Proyectos</a>
+          <a href="#contact" className="text-gray-700 hover:text-blue-500">Contacto</a>
         </nav>
 
         {/* Mobile Menu Icon */}

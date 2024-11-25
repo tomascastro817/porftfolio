@@ -50,10 +50,10 @@ const AboutMe = () => {
             >
               Con experiencia en frameworks de JavaScript modernos como React, Tailwind CSS y Node.js, perfecciono constantemente mis habilidades para mantenerme actualizado y dar vida a ideas innovadoras.
             </p>
-            <div className="mt-4 center" data-aos="fade-up" data-aos-delay="400">
+            <div className="mt-4 flex justify-center md:justify-start" data-aos="fade-up" data-aos-delay="400">
               <a
                 href="#projects"
-                className="inline-block bg-blue-400 text-white font-semibold py-2 px-6 rounded-full shadow hover:bg-blue-500 transition duration-200"
+                className="inline-block bg-blue-400 text-white font-semibold mt-8 py-2 px-6 rounded-full shadow hover:bg-blue-500 transition duration-200"
               >
                 Descargar CV
               </a>
