@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Importa el CSS de AOS
-
+import Foto from '../images/cv.jpg'
 const AboutMe = () => {
   // Inicializar AOS cuando el componente se monte
   useEffect(() => {
@@ -29,7 +29,7 @@ const AboutMe = () => {
             data-aos="fade-right" // AOS para la imagen
           >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZ1Ztq0GhN8dVQS56ar_xQgRDztsmZemNxQ&s"
+              src= {Foto}
               alt="Your Profile"
               className="w-full h-full object-cover"
             />
@@ -51,12 +51,13 @@ const AboutMe = () => {
               Con experiencia en frameworks de JavaScript modernos como React, Tailwind CSS y Node.js, perfecciono constantemente mis habilidades para mantenerme actualizado y dar vida a ideas innovadoras.
             </p>
             <div className="mt-4 flex justify-center md:justify-start" data-aos="fade-up" data-aos-delay="400">
-              <a
-                href="#projects"
-                className="inline-block bg-blue-400 text-white font-semibold mt-8 py-2 px-6 rounded-full shadow hover:bg-blue-500 transition duration-200"
-              >
-                Descargar CV
-              </a>
+            <a
+              href="/FacundoTomasCastro-cv.pdf" // Ruta desde la raíz del servidor
+              download="FacundoTomasCastro-cv.pdf"
+              className="inline-block bg-blue-400 text-white font-semibold mt-8 py-2 px-6 rounded-full shadow hover:bg-blue-500 transition duration-200"
+            >
+              Descargar CV
+            </a>
             </div>
           </div>
         </div>

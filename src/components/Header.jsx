@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -13,8 +12,8 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZ1Ztq0GhN8dVQS56ar_xQgRDztsmZemNxQ&s" alt="Your Logo" className="w-16 h-16 rounded-full" />
-          <span className="font-bold">TOMAS CASTRO</span>
+          
+          <span className="font-bold">FACUNDO TOMAS CASTRO</span>
         </div>
 
         {/* Desktop Navigation */}
@@ -38,10 +37,10 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white shadow-md p-4 absolute top-16 left-0 w-full z-10">
           <nav className="flex flex-col space-y-4">
-            <a href="#home" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Home</a>
-            <a href="#about" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>About</a>
-            <a href="#projects" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Projects</a>
-            <a href="#contact" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Contact</a>
+            <a href="#home" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Inicio</a>
+            <a href="#about" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Sobre mi</a>
+            <a href="#projects" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Proyectos</a>
+            <a href="#contact" className="text-gray-700 hover:text-black" onClick={toggleMobileMenu}>Contacto</a>
           </nav>
         </div>
       )}

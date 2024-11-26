@@ -62,12 +62,12 @@ const Hero = () => {
           Desarrollador Fullstack, Tecnico Universitario en Programacion.
         </p>
         <a
-          href="#projects"
+          href="#contact"
           className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
           data-aos="fade-up" // AOS animation for fade-up
           data-aos-delay="400" // Delay to appear after the description
         >
-          Ver Proyectos
+          Contactame
         </a>
       </div>
 
