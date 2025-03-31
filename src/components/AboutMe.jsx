@@ -52,8 +52,8 @@ const AboutMe = () => {
             </p>
             <div className="mt-4 flex justify-center md:justify-start" data-aos="fade-up" data-aos-delay="400">
             <a
-              href="/FacundoTomasCastro-cv.pdf" // Ruta desde la raíz del servidor
-              download="FacundoTomasCastro-cv.pdf"
+              href="/Facundo-Tomás-Castro-CV.pdf" // Ruta desde la raíz del servidor
+              download="Facundo-Tomás-Castro-CV.pdf"
               className="inline-block bg-blue-400 text-white font-semibold mt-8 py-2 px-6 rounded-full shadow hover:bg-blue-500 transition duration-200"
             >
               Descargar CV
